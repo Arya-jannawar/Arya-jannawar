@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="6" viewBox="0 0 900 6">
+  <title>Divider</title>
+  <defs>
+    <linearGradient id="baseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="15%" stop-color="#00e5ff" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#bd5fff" stop-opacity="0.75"/>
+      <stop offset="85%" stop-color="#ff2e97" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff2e97" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="pulseGlow" x="-60%" y="-400%" width="220%" height="900%"><feGaussianBlur stdDeviation="1.6"/></filter>
+  </defs>
+  <rect x="0" y="2" width="900" height="2" fill="url(#baseGrad)"/>
+  <g>
+    <rect x="0" y="1" width="170" height="4" fill="url(#pulseGrad)" filter="url(#pulseGlow)"/>
+    <animateTransform attributeName="transform" type="translate" values="-190 0;940 0" dur="3.4s" repeatCount="indefinite"/>
+  </g>
+  <g>
+    <rect x="0" y="1" width="170" height="4" fill="url(#pulseGrad)" filter="url(#pulseGlow)" opacity="0.5"/>
+    <animateTransform attributeName="transform" type="translate" values="-190 0;940 0" dur="3.4s" begin="-1.7s" repeatCount="indefinite"/>
+  </g>
+</svg>

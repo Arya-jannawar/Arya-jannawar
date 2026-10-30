@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <title>Arya Jannawar — Full-Stack Developer &amp; AI Builder</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="28%" r="95%">
+      <stop offset="0%" stop-color="#171738"/>
+      <stop offset="55%" stop-color="#0b0b20"/>
+      <stop offset="100%" stop-color="#05050f"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="52%" stop-color="#bd5fff"/>
+      <stop offset="100%" stop-color="#ff2e97"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffe066"/>
+      <stop offset="42%" stop-color="#ff2e97"/>
+      <stop offset="100%" stop-color="#5b1fb8"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00e5ff" stop-opacity="0"/>
+      <stop offset="55%" stop-color="#00e5ff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="horizon"><rect x="0" y="0" width="1200" height="213"/></clipPath>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="blurXL" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="34"/></filter>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- nebula breathing -->
+  <ellipse cx="240" cy="90" rx="240" ry="120" fill="#bd5fff" opacity="0.14" filter="url(#blurXL)">
+    <animate attributeName="opacity" values="0.10;0.22;0.10" dur="11s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="980" cy="70" rx="260" ry="130" fill="#00e5ff" opacity="0.10" filter="url(#blurXL)">
+    <animate attributeName="opacity" values="0.14;0.05;0.14" dur="13s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- twinkling stars -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="40" r="1.4"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.8s" begin="-0.4s" repeatCount="indefinite"/></circle>
+    <circle cx="120" cy="150" r="1.1"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.6s" begin="-1.2s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="70" r="1.7"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.4s" begin="-2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="120" r="1.2"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.1s" begin="-0.7s" repeatCount="indefinite"/></circle>
+    <circle cx="360" cy="30" r="1.5"><animate attributeName="opacity" values="0.15;1;0.15" dur="4.2s" begin="-2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="160" r="1.0"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.6s" begin="-1.6s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="60" r="1.8"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.4s" begin="-0.2s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="150" r="1.1"><animate attributeName="opacity" values="0.15;1;0.15" dur="4.6s" begin="-3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="35" r="1.4"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.9s" begin="-1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="110" r="1.2"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.3s" begin="-0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="840" cy="170" r="1.0"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.5s" begin="-2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="900" cy="55" r="1.6"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.8s" begin="-1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="130" r="1.2"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" begin="-0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1030" cy="40" r="1.5"><animate attributeName="opacity" values="0.15;1;0.15" dur="4.4s" begin="-3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="1090" cy="150" r="1.1"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.0s" begin="-2.0s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" cy="90" r="1.7"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.3s" begin="-1.1s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="180" r="1.0"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.5s" begin="-0.8s" repeatCount="indefinite"/></circle>
+    <circle cx="480" cy="95" r="1.3"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.6s" begin="-1.7s" repeatCount="indefinite"/></circle>
+    <circle cx="580" cy="25" r="1.2"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.9s" begin="-2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="680" cy="70" r="1.0"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.2s" begin="-0.3s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="20" r="1.3"><animate attributeName="opacity" values="0.15;1;0.15" dur="2.7s" begin="-1.5s" repeatCount="indefinite"/></circle>
+    <circle cx="990" cy="180" r="1.0"><animate attributeName="opacity" values="0.15;1;0.15" dur="3.4s" begin="-2.2s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- retro sun on the horizon -->
+  <g clip-path="url(#horizon)">
+    <ellipse cx="600" cy="205" rx="160" ry="130" fill="#ff2e97" opacity="0.35" filter="url(#blurXL)">
+      <animate attributeName="opacity" values="0.28;0.45;0.28" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+    <circle cx="600" cy="188" r="76" fill="url(#sunGrad)" opacity="0.58"/>
+    <rect x="518" y="184" width="164" height="4" fill="#0b0b1d"/>
+    <rect x="518" y="196" width="164" height="6" fill="#0b0b1d"/>
+    <rect x="518" y="209" width="164" height="9" fill="#0b0b1d"/>
+  </g>
+
+  <!-- perspective grid: converging verticals -->
+  <g stroke="#bd5fff" stroke-width="1">
+    <line x1="600" y1="213" x2="-450" y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-0.0s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="-300" y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-0.7s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="-150" y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-1.4s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="0"    y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-2.1s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="150"  y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-2.8s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="300"  y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-3.5s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="450"  y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-4.2s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="600"  y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-4.9s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="750"  y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-5.6s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="900"  y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-6.3s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="1050" y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-7.0s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="1200" y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-7.7s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="1350" y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-8.4s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="1500" y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-9.1s" repeatCount="indefinite"/></line>
+    <line x1="600" y1="213" x2="1650" y2="324" stroke-opacity="0.20"><animate attributeName="stroke-opacity" values="0.08;0.30;0.08" dur="6s" begin="-9.8s" repeatCount="indefinite"/></line>
+  </g>
+
+  <!-- perspective grid: horizon lines rushing toward the viewer -->
+  <g stroke="#00e5ff" stroke-width="1">
+    <line x1="0" x2="1200" y1="214" y2="214">
+      <animate attributeName="y1" values="214;324" dur="3.2s" begin="-0.00s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="214;324" dur="3.2s" begin="-0.00s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0;0.5;0.12" keyTimes="0;0.4;1" dur="3.2s" begin="-0.00s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" x2="1200" y1="214" y2="214">
+      <animate attributeName="y1" values="214;324" dur="3.2s" begin="-0.46s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="214;324" dur="3.2s" begin="-0.46s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0;0.5;0.12" keyTimes="0;0.4;1" dur="3.2s" begin="-0.46s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" x2="1200" y1="214" y2="214">
+      <animate attributeName="y1" values="214;324" dur="3.2s" begin="-0.91s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="214;324" dur="3.2s" begin="-0.91s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0;0.5;0.12" keyTimes="0;0.4;1" dur="3.2s" begin="-0.91s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" x2="1200" y1="214" y2="214">
+      <animate attributeName="y1" values="214;324" dur="3.2s" begin="-1.37s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="214;324" dur="3.2s" begin="-1.37s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0;0.5;0.12" keyTimes="0;0.4;1" dur="3.2s" begin="-1.37s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" x2="1200" y1="214" y2="214">
+      <animate attributeName="y1" values="214;324" dur="3.2s" begin="-1.83s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="214;324" dur="3.2s" begin="-1.83s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0;0.5;0.12" keyTimes="0;0.4;1" dur="3.2s" begin="-1.83s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" x2="1200" y1="214" y2="214">
+      <animate attributeName="y1" values="214;324" dur="3.2s" begin="-2.29s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="214;324" dur="3.2s" begin="-2.29s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0;0.5;0.12" keyTimes="0;0.4;1" dur="3.2s" begin="-2.29s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" x2="1200" y1="214" y2="214">
+      <animate attributeName="y1" values="214;324" dur="3.2s" begin="-2.74s" repeatCount="indefinite"/>
+      <animate attributeName="y2" values="214;324" dur="3.2s" begin="-2.74s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0;0.5;0.12" keyTimes="0;0.4;1" dur="3.2s" begin="-2.74s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  <line x1="0" x2="1200" y1="213" y2="213" stroke="#00e5ff" stroke-width="1.6" stroke-opacity="0.85" filter="url(#glow)"/>
+
+  <!-- scanning beam -->
+  <rect x="0" width="1200" height="90" fill="url(#scanGrad)" y="-90">
+    <animate attributeName="y" values="-90;322" dur="7.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- rising particles -->
+  <g>
+    <circle cx="140" r="2" fill="#00e5ff"><animate attributeName="cy" values="330;70" dur="12s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.12;0.7;1" dur="12s" begin="-2s" repeatCount="indefinite"/></circle>
+    <circle cx="330" r="2" fill="#bd5fff"><animate attributeName="cy" values="330;70" dur="9s" begin="-5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.12;0.7;1" dur="9s" begin="-5s" repeatCount="indefinite"/></circle>
+    <circle cx="540" r="2" fill="#ff2e97"><animate attributeName="cy" values="330;70" dur="13s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.12;0.7;1" dur="13s" begin="-1s" repeatCount="indefinite"/></circle>
+    <circle cx="780" r="2" fill="#00e5ff"><animate attributeName="cy" values="330;70" dur="10s" begin="-7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.12;0.7;1" dur="10s" begin="-7s" repeatCount="indefinite"/></circle>
+    <circle cx="1000" r="2" fill="#bd5fff"><animate attributeName="cy" values="330;70" dur="14s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.12;0.7;1" dur="14s" begin="-3s" repeatCount="indefinite"/></circle>
+    <circle cx="1150" r="2" fill="#ff2e97"><animate attributeName="cy" values="330;70" dur="11s" begin="-9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0.7;0.7;0" keyTimes="0;0.12;0.7;1" dur="11s" begin="-9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- corner brackets -->
+  <g stroke="#00e5ff" stroke-width="3" fill="none" filter="url(#glow)">
+    <path d="M16 46 V16 H46"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/></path>
+    <path d="M1154 16 H1184 V46"><animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/></path>
+    <path d="M16 274 V304 H46"><animate attributeName="opacity" values="1;0.5;1" dur="3s" repeatCount="indefinite"/></path>
+    <path d="M1154 304 H1184 V274"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- typography -->
+  <text x="600" y="46" text-anchor="middle" font-family="'Courier New', monospace" font-size="15" letter-spacing="3" fill="#00e5ff" opacity="0.9">// NEON.OS v2.0 — PROFILE_INIT ▍<animate attributeName="opacity" values="0.55;1;0.55" dur="2.4s" repeatCount="indefinite"/></text>
+  <text x="600" y="124" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="82" letter-spacing="5" fill="url(#titleGrad)" filter="url(#glow)">ARYA JANNAWAR</text>
+  <text x="600" y="162" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18" letter-spacing="7" fill="#e6edf3" opacity="0.95" stroke="#05050f" stroke-width="5" paint-order="stroke">FULL-STACK DEVELOPER × AI BUILDER × CREATIVE CODER</text>
+  <text x="600" y="192" text-anchor="middle" font-family="'Courier New', monospace" font-size="13.5" fill="#a8b3c4" stroke="#05050f" stroke-width="4" paint-order="stroke">// status: building MetroMind — AI copilot for Pune Metro</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="250" viewBox="0 0 820 250">
+  <title>Terminal — whoami</title>
+  <defs>
+    <clipPath id="termClip"><rect x="0" y="0" width="820" height="250" rx="14"/></clipPath>
+    <linearGradient id="termGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#bd5fff"/>
+      <stop offset="100%" stop-color="#ff2e97"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="6"/></filter>
+  </defs>
+
+  <!-- soft outer glow -->
+  <rect x="6" y="8" width="808" height="238" rx="16" fill="none" stroke="url(#termGlow)" stroke-opacity="0.35" stroke-width="2" filter="url(#softGlow)"/>
+
+  <g clip-path="url(#termClip)">
+    <rect width="820" height="250" fill="#0d1117"/>
+    <!-- title bar -->
+    <rect width="820" height="36" fill="#161b22"/>
+    <line x1="0" y1="36.5" x2="820" y2="36.5" stroke="#21262d"/>
+    <circle cx="26" cy="18" r="6" fill="#ff5f56"/>
+    <circle cx="46" cy="18" r="6" fill="#ffbd2e"/>
+    <circle cx="66" cy="18" r="6" fill="#27c93f"/>
+    <text x="410" y="22.5" text-anchor="middle" font-family="'Courier New', monospace" font-size="12.5" fill="#8b949e">arya@github: ~/neon-portfolio</text>
+
+    <!-- looping scene: lines type in, hold, clear -->
+    <g font-family="'Courier New', monospace" font-size="15">
+      <g>
+        <animate attributeName="opacity" values="1;1;1;0" keyTimes="0;0.9;0.93;1" dur="14s" repeatCount="indefinite"/>
+        <text x="24" y="72"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> whoami</tspan>
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.026;0.04;1" dur="14s" repeatCount="indefinite"/>
+        </text>
+        <text x="44" y="98" fill="#00e5ff" font-weight="bold">Arya Jannawar · Full-Stack Dev × AI Builder
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.096;0.11;1" dur="14s" repeatCount="indefinite"/>
+        </text>
+        <text x="24" y="124"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> cat mission.txt</tspan>
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.166;0.18;1" dur="14s" repeatCount="indefinite"/>
+        </text>
+        <text x="44" y="150" fill="#bd5fff">▸ MetroMind — AI commute copilot for Pune Metro
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.236;0.25;1" dur="14s" repeatCount="indefinite"/>
+        </text>
+        <text x="44" y="176" fill="#bd5fff">▸ TrustLens — verifying what the internet believes
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.306;0.32;1" dur="14s" repeatCount="indefinite"/>
+        </text>
+        <text x="24" y="202"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> ./status.sh</tspan>
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.376;0.39;1" dur="14s" repeatCount="indefinite"/>
+        </text>
+        <text x="44" y="228" fill="#ff2e97" font-weight="bold">[open to: internships · collabs · hackathons]
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.446;0.46;1" dur="14s" repeatCount="indefinite"/>
+        </text>
+        <g>
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.5;0.51;1" dur="14s" repeatCount="indefinite"/>
+          <text x="452" y="228" fill="#ff2e97" font-weight="bold">▊
+            <animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+          </text>
+        </g>
+      </g>
+    </g>
+
+    <!-- scanline -->
+    <rect x="0" width="820" height="46" fill="#00e5ff" opacity="0.045" y="-46">
+      <animate attributeName="y" values="-46;250" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>

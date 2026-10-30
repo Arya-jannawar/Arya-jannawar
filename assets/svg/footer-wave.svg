@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
+  <title>Open channel — let's build something legendary</title>
+  <defs>
+    <linearGradient id="waveA" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#bd5fff"/>
+      <stop offset="100%" stop-color="#ff2e97"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff2e97"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+    </linearGradient>
+    <filter id="txtGlow" x="-30%" y="-60%" width="160%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="150" fill="#05050f"/>
+  <circle cx="180" cy="30" r="1.6" fill="#00e5ff"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.6s" begin="-0.3s" repeatCount="indefinite"/></circle>
+  <circle cx="420" cy="18" r="1.2" fill="#ff2e97"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.4s" begin="-1.1s" repeatCount="indefinite"/></circle>
+  <circle cx="760" cy="26" r="1.4" fill="#bd5fff"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.0s" begin="-1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="1020" cy="14" r="1.2" fill="#00e5ff"><animate attributeName="opacity" values="0.1;1;0.1" dur="2.8s" begin="-0.7s" repeatCount="indefinite"/></circle>
+  <text x="600" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="21" letter-spacing="4" fill="#ffffff" filter="url(#txtGlow)">LET'S BUILD SOMETHING LEGENDARY</text>
+  <text x="600" y="66" text-anchor="middle" font-family="'Courier New', monospace" font-size="13" fill="#8b949e">// open_channel — always listening · open to internships, collabs &amp; hackathons</text>
+  <path fill="url(#waveB)" opacity="0.45" d="M0,107 C200,142 400,72 600,107 C800,142 1000,72 1200,107 V150 H0 Z">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"
+      values="M0,107 C200,72 400,142 600,107 C800,72 1000,142 1200,107 V150 H0 Z;
+              M0,107 C200,142 400,72 600,107 C800,142 1000,72 1200,107 V150 H0 Z;
+              M0,107 C200,72 400,142 600,107 C800,72 1000,142 1200,107 V150 H0 Z"/>
+  </path>
+  <path fill="url(#waveA)" opacity="0.9" d="M0,95 C200,130 400,60 600,95 C800,130 1000,60 1200,95 V150 H0 Z">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="spline" keySplines="0.42 0 0.58 1;0.42 0 0.58 1"
+      values="M0,95 C200,130 400,60 600,95 C800,130 1000,60 1200,95 V150 H0 Z;
+              M0,95 C200,60 400,130 600,95 C800,60 1000,130 1200,95 V150 H0 Z;
+              M0,95 C200,130 400,60 600,95 C800,130 1000,60 1200,95 V150 H0 Z"/>
+  </path>
+</svg>
