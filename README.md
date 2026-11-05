@@ -40,6 +40,16 @@
 
 <img width="100%" src="assets/svg/divider.svg" alt=""/>
 
+## 🕹 PIXEL_MODE
+
+<div align="center">
+  <img width="360" src="assets/svg/pixel-avatar.svg" alt="Arya rendered as a 32×32 pixel-art portrait"/>
+  <br/>
+  <i>// me.exe — rendered at 32×32 · low res, high vibes</i>
+</div>
+
+<img width="100%" src="assets/svg/divider.svg" alt=""/>
+
 ## 🧠 TECH_ARSENAL
 
 <div align="center">
