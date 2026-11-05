@@ -123,7 +123,7 @@
 
 <div align="center">
   <!-- TODO-LINKEDIN: replace with your real LinkedIn profile URL -->
-  <a href="https://www.linkedin.com/in/TODO-USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/arya-j-50610a2a6/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <!-- TODO-EMAIL: replace with your real email address -->
   <a href="mailto:TODO-EMAIL@example.com"><img src="https://img.shields.io/badge/Email-00e5ff?style=for-the-badge&logo=gmail&logoColor=0d1117" alt="Email"/></a>
   <a href="https://arya-jannawar.github.io/MetroMind/"><img src="https://img.shields.io/badge/MetroMind_LIVE-ff2e97?style=for-the-badge&logo=vercel&logoColor=white" alt="MetroMind live demo"/></a>
