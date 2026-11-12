@@ -25,17 +25,17 @@
     <text x="730" y="152" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="70" fill="#ffffff" opacity="0.045">04</text>
     <text x="30" y="42" font-family="'Courier New', monospace" font-size="12" letter-spacing="3" fill="#00e5ff">PROJECT // 04</text>
     <text x="30" y="76" font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="27" fill="#f0f6fc">Jallekha</text>
-    <text x="30" y="104" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#9aa7b8">Water ledger for the real world — measuring and making sense of every drop</text>
+    <text x="30" y="104" font-family="Arial, Helvetica, sans-serif" font-size="14.5" fill="#9aa7b8">Water delivery &amp; consumption reconciliation for campuses — Team SevaForge</text>
     <g font-family="Arial, Helvetica, sans-serif" font-size="12.5">
-      <rect x="30" y="122" width="64" height="22" rx="11" fill="#00e5ff" fill-opacity="0.10" stroke="#00e5ff" stroke-opacity="0.4"/>
-      <text x="62" y="137" text-anchor="middle" fill="#00e5ff">Python</text>
-      <rect x="104" y="122" width="52" height="22" rx="11" fill="#00e5ff" fill-opacity="0.10" stroke="#00e5ff" stroke-opacity="0.4"/>
-      <text x="130" y="137" text-anchor="middle" fill="#00e5ff">Data</text>
-      <rect x="166" y="122" width="84" height="22" rx="11" fill="#00e5ff" fill-opacity="0.10" stroke="#00e5ff" stroke-opacity="0.4"/>
-      <text x="208" y="137" text-anchor="middle" fill="#00e5ff">Dashboard</text>
+      <rect x="30" y="122" width="90" height="22" rx="11" fill="#00e5ff" fill-opacity="0.10" stroke="#00e5ff" stroke-opacity="0.4"/>
+      <text x="75" y="137" text-anchor="middle" fill="#00e5ff">TypeScript</text>
+      <rect x="130" y="122" width="116" height="22" rx="11" fill="#00e5ff" fill-opacity="0.10" stroke="#00e5ff" stroke-opacity="0.4"/>
+      <text x="188" y="137" text-anchor="middle" fill="#00e5ff">Reconciliation</text>
+      <rect x="256" y="122" width="96" height="22" rx="11" fill="#00e5ff" fill-opacity="0.10" stroke="#00e5ff" stroke-opacity="0.4"/>
+      <text x="304" y="137" text-anchor="middle" fill="#00e5ff">Audit Trail</text>
     </g>
     <rect x="688" y="20" width="124" height="26" rx="13" fill="#00e5ff" fill-opacity="0.12" stroke="#00e5ff" stroke-opacity="0.5"/>
-    <text x="750" y="37.5" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="bold" letter-spacing="1" fill="#00e5ff">🚧 INCUBATING</text>
+    <text x="750" y="37.5" text-anchor="middle" font-family="'Courier New', monospace" font-size="12" font-weight="bold" letter-spacing="1" fill="#00e5ff">★ 4 · SHIPPED</text>
     <g>
       <animateTransform attributeName="transform" type="translate" values="0 0;7 0;0 0" dur="2.4s" begin="-0.4s" repeatCount="indefinite"/>
       <text x="748" y="138" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" fill="#00e5ff">VIEW →</text>

@@ -93,7 +93,7 @@
 <a href="https://github.com/Arya-jannawar/MetroMind"><img width="100%" src="assets/svg/project-metromind.svg" alt="MetroMind — AI commute copilot for the Pune Metro"/></a>
 <a href="https://github.com/Arya-jannawar/trustlens"><img width="100%" src="assets/svg/project-trustlens.svg" alt="TrustLens — AI trust and verification engine"/></a>
 <a href="https://github.com/Arya-jannawar/AI_powered_pharmacy_system"><img width="100%" src="assets/svg/project-pharmacy.svg" alt="AI Pharmacy System — automation-first pharmacy operations"/></a>
-<a href="https://github.com/Arya-jannawar/Jallekha"><img width="100%" src="assets/svg/project-jallekha.svg" alt="Jallekha — water ledger"/></a>
+<a href="https://github.com/Avani376/jallekha"><img width="100%" src="assets/svg/project-jallekha.svg" alt="Jallekha — water delivery &amp; consumption reconciliation for campuses (Team SevaForge)"/></a>
 <a href="https://github.com/Arya-jannawar/verity-graph"><img width="100%" src="assets/svg/project-verity-graph.svg" alt="Verity Graph — offline-first document evidence graph and contradiction analysis"/></a>
 <a href="https://github.com/Arya-jannawar/tracevault"><img width="100%" src="assets/svg/project-tracevault.svg" alt="TraceVault — provenance-aware deletion and summary repair for privacy-preserving RAG"/></a>
 
@@ -108,7 +108,7 @@
 | **[AI_powered_pharmacy_system](https://github.com/Arya-jannawar/AI_powered_pharmacy_system)** | 🔧 in build | Python |
 | **[verity-graph](https://github.com/Arya-jannawar/verity-graph)** | 🔬 research | C++17 · Python |
 | **[tracevault](https://github.com/Arya-jannawar/tracevault)** | 🔬 research | Python · RAG |
-| **[Jallekha](https://github.com/Arya-jannawar/Jallekha)** | 🚧 incubating | — |
+| **[Jallekha](https://github.com/Avani376/jallekha)** | 🟢 live demo · SevaForge | TypeScript |
 | **[Vishwakarandak](https://github.com/Arya-jannawar/Vishwakarandak)** | 🧪 experiment | — |
 | **[dayton](https://github.com/Arya-jannawar/dayton)** *(fork)* | 📦 exploring | infra for AI-generated code |
 
